@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:showIn="@layout/view_activity"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".ViewActivity">
+    <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spinner_view_color_note"
+            android:layout_marginEnd="130dp"
+            android:layout_height="50dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_view_title_note"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinner_view_color_note"
+            android:hint="@string/edit_title_notes" android:inputType="textShortMessage"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/edit_view_text_note"
+            android:layout_below="@+id/edit_view_title_note"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/edit_text_notes"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_view_datetime_note"
+            android:layout_below="@+id/edit_view_text_note"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/edit_datetime_notes"
+            android:inputType="none"
+            android:enabled="false"/>
+    <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_save"
+            android:id="@+id/butt_view_save_note"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            style="@android:style/Widget.Holo.ImageButton"
+            android:contentDescription="@string/img_save_note"/>
+    <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            android:id="@+id/butt_view_del_note"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="64dp"
+            style="@android:style/Widget.Holo.ImageButton"
+            android:contentDescription="@string/img_delete_note"/>
+</RelativeLayout>

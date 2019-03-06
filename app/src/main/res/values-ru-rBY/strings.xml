@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="butt_new_note">Новая заметка</string>
+    <string name="title_view">Просмотр заметки</string>
+    <string name="title_add">Добавить заметку</string>
+    <string name="title_main">Заметки</string>
+    <string name="alert_title_delete">Удаление заметки</string>
+    <string name="alert_message_delete">Вы уверены, что хотите удалить заметку?</string>
+    <string name="alert_positive_delete">Да</string>
+    <string name="alert_negative_delete">Нет</string>
+    <string name="edit_title_notes">Заголовок</string>
+    <string name="edit_text_notes">Содержимое</string>
+    <string name="edit_datetime_notes">Время создания</string>
+    <string name="edit_filter">Фильтр</string>
+    <string name="img_save_note">Сохранить заметку</string>
+    <string name="img_delete_note">Удалить заметку</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_main_about_title">О программе</string>
+    <string name="menu_main_about_message">Программа была разработана студентом группы 681073 Сидельниковым Андреем Григорьевичем</string>
+    <string name="menu_main_about_ok">Ок</string>
+    <string name="delete_dialog_title">Удаление заметки</string>
+    <string name="delete_dialog_message">Вы уверены, что хотите удалить заметку?</string>
+    <string name="delete_dialog_yes">Да</string>
+    <string name="delete_dialog_no">Нет</string>
+    <string name="delete_dialog_no_message">Отменено</string>
+    <string name="delete_dialog_close_message">Отменено</string>
+    <string name="menu_exit">Выход</string>
+    <string name="add_tutorial">Введите заголовок и содержание заметки. Так же назначте заметке цвет (метку).</string>
+    <string name="main_tutorial">Для создания заметки нажмите на кнопку снизу</string>
+</resources>

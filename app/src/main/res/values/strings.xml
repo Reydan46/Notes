@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="butt_new_note">New note</string>
+    <string name="title_view">View note</string>
+    <string name="title_add">Add note</string>
+    <string name="title_main">Notes</string>
+    <string name="alert_positive_delete">Yes</string>
+    <string name="alert_negative_delete">No</string>
+    <string name="alert_title_delete">Delete note</string>
+    <string name="alert_message_delete">You delete this note?</string>
+    <string name="edit_title_notes">Title</string>
+    <string name="edit_text_notes">Text</string>
+    <string name="edit_datetime_notes">Create time</string>
+    <string name="edit_filter">Filter</string>
+    <string name="img_save_note">Save note</string>
+    <string name="img_delete_note">Delete note</string>
+    <string name="menu_about">About</string>
+    <string name="menu_main_about_title">About</string>
+    <string name="menu_main_about_ok">OK</string>
+    <string name="delete_dialog_message">Are you sure you want to delete the note?</string>
+    <string name="delete_dialog_no_message">Canceled</string>
+    <string name="delete_dialog_close_message">Canceled</string>
+    <string name="menu_main_about_message">"The program was developed by a group of students 681073 Sidelnikov Andrei
+        Grigorievich\n "
+    </string>
+    <string name="delete_dialog_title">Delete note</string>
+    <string name="delete_dialog_yes">Yes</string>
+    <string name="delete_dialog_no">No</string>
+    <string name="menu_exit">Exit</string>
+    <string name="main_tutorial">To create a note, click on the button below</string>
+    <string name="add_tutorial">Enter the title and content of the note. Also assign a color (label) to the note.</string>
+</resources>

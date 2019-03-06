@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SQLAndroidSettings">
+    <option name="databases">
+      <map>
+        <entry key="BD_NOTES_D:\Dropbox\Projects\Android\Notes\AndroidSqlEditorDatabases\">
+          <value>
+            <list>
+              <option value="1ad9ac89" />
+              <option value="/databases/BD_NOTES" />
+              <option value="BD_NOTES" />
+              <option value="BD_NOTES" />
+              <option value="false" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="packageNameByDirectory">
+      <map>
+        <entry key="D:\Dropbox\Projects\Android\Notes\AndroidSqlEditorDatabases\" value="rey.notes" />
+        <entry key="E:\Dropbox\Projects\Android\Notes\AndroidSqlEditorDatabases\" value="rey.notes" />
+      </map>
+    </option>
+    <option name="storageVersion" value="2" />
+  </component>
+</project>

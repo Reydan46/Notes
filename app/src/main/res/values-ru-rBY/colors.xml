@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_note_colors">
+        <item>green</item>
+        <item>blue</item>
+        <item>purple</item>
+        <item>orange</item>
+        <item>red</item>
+        <!--<item>darkblue</item>-->
+        <!--<item>darkpurple</item>-->
+        <!--<item>darkgreen</item>-->
+        <!--<item>darkorange</item>-->
+        <!--<item>darkred</item>-->
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" tools:showIn="@layout/main_activity_content"
+        android:id="@+id/filter_laylout">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/edt_main_filter" android:gravity="start"
+            android:hint="@string/edit_filter" android:inputType="textFilter"/>
+</RelativeLayout>

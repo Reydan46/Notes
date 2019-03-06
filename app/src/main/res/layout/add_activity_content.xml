@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:showIn="@layout/add_activity"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".AddActivity">
+    <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_save"
+            android:id="@+id/butt_add_save_note"
+            android:layout_alignParentStart="false" android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" style="@android:style/Widget.Holo.ImageButton"
+            android:contentDescription="@string/img_save_note"/>
+    <EditText
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_add_title_note"
+            android:layout_below="@+id/butt_add_save_note" android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:hint="@string/edit_title_notes" android:inputType="textShortMessage"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/edit_add_text_note"
+            android:layout_below="@+id/edit_add_title_note"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="@string/edit_text_notes"/>
+    <Spinner
+            android:layout_width="143dp"
+            android:id="@+id/spinner_add_color_note" android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" android:layout_alignParentEnd="false"
+            android:layout_alignEnd="@+id/butt_add_save_note" android:layout_marginEnd="70dp"
+            android:layout_height="50dp"/>
+</RelativeLayout>

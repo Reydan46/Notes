@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/add_background_tutorial"
+            android:background="#aa000000"
+            tools:ignore="ContentDescription"
+            android:layout_marginTop="180dp" android:visibility="invisible"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:id="@+id/add_text_tutorial"
+            android:text="@string/add_tutorial"
+            android:textColor="@android:color/white"
+            android:textAlignment="gravity"
+            android:textSize="30sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:inputType="none"
+            android:enabled="false"
+            android:layout_marginTop="180dp"
+            android:visibility="invisible"
+            tools:ignore="LabelFor"/>
+    <include layout="@layout/add_activity_content"/>
+</android.support.design.widget.CoordinatorLayout>
